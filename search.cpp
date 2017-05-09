@@ -19,15 +19,15 @@ int main(){
 	
 	 for (int i=0; i<10; i++){
             if(cari == a[i]){
-				cout << "Data Ditemukan" << endl;
-                cout << "angka " << cari << " ada pada array ke - " << i << endl;
+		cout << "Data Ditemukan" << endl;
+                cout << "Nilai " << cari << " ada pada index ke - " << i << endl;
                 hitung ++;
                 break;
             }
      }
         if (hitung == 0){
-			cout << "Data tidak Ditemukan " << endl;
-            cout << "angka " << cari << " tidak ada pada array";
+		cout << "Data tidak Ditemukan " << endl;
+            	cout << "angka " << cari << " tidak ada pada array";
         }
 	return 0;
 }
